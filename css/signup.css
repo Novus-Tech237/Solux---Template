@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 926px;
+    width: 428px;
+    /* background-color: blue; */
+}
+
+.overlap-group-container{
+    align-items: center;
+    background-image: url(ellipse2.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height: 60%;
+    width: 428px;
+    margin-bottom: -12rem;
+} 
+
+.overlap-group-item{
+    height: 249px;
+    margin-left: 1px;
+    margin-top: 126px;
+    position: relative;
+    width: 225px;
+}
+
+.ellipse{
+    height: 189px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 184px;
+}
+
+.logo{
+    height: 105px;
+    left: 41px;
+    object-fit: cover;
+    position: absolute;
+    top: 41px;
+    width: 150px;
+}
+
+.title{
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 188px;
+    width: 225px;
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 47px;
+    margin-top: 5rem;
+    min-width: 388px;
+    gap: 1rem;
+    text-decoration: none;
+}
+input{
+    width: 90%;
+    padding: 12px;
+    background: #D9D9D9;
+    color: var(--color-white);
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
+.btn{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 47px;
+    min-width: 388px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+button{
+    width: 40%;
+    padding: 12px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #FF7A00;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.redirection{
+    margin-top: 1rem;
+    text-align: center;
+}
+.redirection span, a{
+    font-family: 'Inter', sans-serif;
+
+}
+.redirection span{
+    color: #000000;
+}
+.redirection a{
+    color: #FF7A00;
+    text-decoration: none;
+}
