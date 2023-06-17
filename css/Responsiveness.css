@@ -5,6 +5,7 @@
 body{
     resize: none;
     overflow: hidden;
+    overflow-y: hidden;
 }
 
 @media only screen and (max-width: 1000px) {
