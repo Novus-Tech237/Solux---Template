@@ -1,4 +1,21 @@
-@media only screen and (max-width: 896px) {
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    resize: none;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        resize: none;
+        overflow: hidden;
+    }
     .container{
         align-items: center;
         background-color: #FFFFFF;
@@ -9,13 +26,6 @@
         height: 926px;
         padding: 27px 0;
         width: 428px;
-        overflow: hidden;
-    }
-    
-    .hidden,
-    .hidden *{
-        pointer-events: none;
-        visibility: hidden;
     }
     
     .favicon{
